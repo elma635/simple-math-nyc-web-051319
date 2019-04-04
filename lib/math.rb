@@ -1,5 +1,5 @@
 def addition(num1=5, num2=4)
-  puts "addition #{num1} + #{num2}"
+  puts "add #{num1} + #{num2}"
   return num1 + num2
 end
 
@@ -24,7 +24,7 @@ def modulo(num1=34, num2=5)
 end
 
 def square_root(num=81)
-  puts "Math.sqrt(#{})"
+  puts "Math.sqrt(#{num})"
   return sqrt(num)
 end
 
