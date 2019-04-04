@@ -19,6 +19,8 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
+  puts "modulo #{num1} % #{num2}"
+  modulo num1 % num2
 end
 
 def square_root(num)
